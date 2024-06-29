@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vira - Jogo da Memória</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="g"></div>
+        
+    <div class="logo">
+        <p class="info">Clique no A para começar o jogo.</p>
+        <div class="card left">
+            <div class="flipper">
+                <div class="f c1">v</div>
+                <div class="b contentbox" id="stats">
+                    <div class="padded">
+                        <h2>Figuras</h2>
+                        Parece que você ainda não VIRAou.
+                        <a href="javascript:;" class="playnow">Jogue Agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card active twist">
+            <div class="flipper">
+                <div class="b f">
+                    <div class="c2">i</div>
+                </div>
+            </div>
+        </div>
+        <div class="card left">
+            <div class="flipper">
+                <div class="f c3">r</div>
+                <div class="b contentbox instructions">
+                    <div class="padded">
+                        <h2>Instruções</h2>
+                        <p>Press [p] para pausar, ou [ESC] para abandonar o jogo.</p>
+                        <p>Vira é um jogo de memória com cartas cronometradas. Clique nas cartas verdes para ver qual símbolo elas descobrem e tente encontrar o símbolo correspondente abaixo das outras cartas.</p>
+                        <p>Descubra dois símbolos correspondentes de uma só vez para eliminá-los do jogo.</p>
+                        <p>Elimine todas as cartas o mais rápido possível para ganhar o jogo. Divirta-se VIRANDO!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="flipper">
+                <div class="f c4">a</div>
+                <div class="b contentbox levels">
+                    <a href="javascript:;" data-level="8" class="play">Casual</a>
+                    <a href="javascript:;" data-level="18" class="play">Médio</a>
+                    <a href="javascript:;" data-level="32" class="play">Difícil</a>
+                </div>
+            </div>
+        </div>
+
+        <p class="links">Por <a href="https://www.linkedin.com/in/david-cavalcante-414573260/" target="_blank">Feito por David Cavalcante</a> Projeto GitHub <a href="https://github.com/David-Cavalcante" target="_blank">GitHub</a>.</p>
+
+    </div>
+        
+
+    <script src="app.js" defer></script>
+
+</body>
+</html>
