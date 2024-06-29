@@ -33,5 +33,5 @@ Desenvolvido por David Cavalcante. Você pode encontrar mais projetos no [Linked
 
 Divirta-se jogando "Vira"!
 
-![Screenshot](screenshot.png)
+https://david-cavalcante.github.io/Vira-jogo-da-memoria/
 
