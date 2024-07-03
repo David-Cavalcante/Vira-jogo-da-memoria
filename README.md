@@ -1,4 +1,5 @@
 # Vira - Jogo da Memória
+![virajogo](imagem_inicial_vira.png)
 
 Jogo da Memória "Vira" desenvolvido em HTML, CSS e JavaScript.
 
@@ -15,6 +16,8 @@ Este projeto implementa um jogo de memória onde o jogador deve combinar pares d
 ## Como Jogar
 
 Para iniciar o jogo, clique no botão "Jogue Agora" na tela inicial e escolha um dos níveis de dificuldade disponíveis.
+
+![virajogo](imagem_no_jogo.png)
 
 ## Pré-requisitos
 
